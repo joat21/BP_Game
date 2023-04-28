@@ -9,56 +9,30 @@ namespace Game.Model
     class Game
     {
         public static GameState State { get; set; }
+
+        public static void Initialize()
+        {
+            State = new GameState();
+            var path = "";
+            State.Level = Level.Load(path);
+            State.Player = new Player(new PointF(1, 1));
+        }
         // gameState
+        // initialization
     }
 
-    class Player
-    {
-        public float Speed { get; set; }
-        public float JumpForce { get; set; }
-        // image
-        // speed
-        // jumpForce
-    }
+    //class Coin
+    //{
+    //    // image
+    //}
 
-    class Tile
-    {
-        public Point Position { get; set; }
-        // image
-        // position
-    }
+    //class Trap
+    //{
+    //    // image
+    //}
 
-    class Level
-    {
-        public int Width { get; set; }
-        public int Height { get; set; }
-        public Tile[,] Tiles { get; set; }
-        // size
-        // tiles
-        // interactive objects: coin, trap # возможно стоит все объекты внести в tiles
-        // enemies
-    }
-
-    class Coin
-    {
-        // image
-    }
-
-    class Trap
-    {
-        // image
-    }
-
-    class Enemy
-    {
-        // image
-    }
-
-    class GameState
-    {
-        public Level Level { get; set; }
-        public Player Player { get; set; }
-        // level
-        // player
-    }
+    //class Enemy
+    //{
+    //    // image
+    //}
 }
