@@ -11,7 +11,18 @@
   <ItemGroup>
     <Folder Include="Levels\" />
     <Folder Include="Resources\" />
+    <Folder Include="Новая папка\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PresentationCore">
+      <HintPath>C:\Program Files\Reference Assemblies\Microsoft\Framework\v3.0\PresentationCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+    <ItemGroup>
+        <FrameworkReference Include="Microsoft.WindowsDesktop.App"/>
+    </ItemGroup>
 
   <ItemGroup>
     <Compile Update="Resources.Designer.cs">

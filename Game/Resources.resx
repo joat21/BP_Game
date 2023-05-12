@@ -118,10 +118,73 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="backgroundColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\backgroundColor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="backgroundShapes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\backgroundShapes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bottomLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\bottomLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bottomMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\bottomMiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bottomRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\bottomRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Coin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\downLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="downRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\downRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grassDownLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\grassDownLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grassDownMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\grassDownMiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grassDownRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\grassDownRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grassLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\grassLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grassMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\grassMiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grassRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\grassRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Level1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Levels\Level1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1251</value>
   </data>
-  <data name="tile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>Resources\tile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="middleLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\middleLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middleMiddle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\middleMiddle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middleRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\middleRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="reaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\reaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\upLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upLeftAndDownright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\upLeftAndDownright.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\upRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="upRightAndDownLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\TileSet\upRightAndDownLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
