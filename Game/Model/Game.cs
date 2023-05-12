@@ -1,25 +1,38 @@
-﻿namespace Game.Model;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-public class Game
+namespace Game.Model
 {
-    public static GameState State { get; set; }
-    public static int TileSize { get => 96; }
-
-    public static void Initialize()
+    class Game
     {
-        State = new GameState();
-        var path = "D:\\CSharpProjects\\Game\\Game\\Levels\\Level1.txt";
-        State.Player = new Player(Resources.reaper);
-        State.Level = Level.Load(path);
+        public static GameState State { get; set; }
+
+        public static void Initialize()
+        {
+            State = new GameState();
+            var path = "";
+            State.Level = Level.Load(path);
+            State.Player = new Player(new PointF(1, 1));
+        }
+        // gameState
+        // initialization
     }
+
+    //class Coin
+    //{
+    //    // image
+    //}
+
+    //class Trap
+    //{
+    //    // image
+    //}
+
+    //class Enemy
+    //{
+    //    // image
+    //}
 }
-
-//class Trap
-//{
-//    // image
-//}
-
-//class Enemy
-//{
-//    // image
-//}

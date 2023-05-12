@@ -1,19 +1,23 @@
-﻿namespace Game.Model;
-
-public class Tile
+﻿namespace Game.Model
 {
-    public virtual Image Sprite { get; set; }
-    public virtual bool IsSolid => true;
-    public Point Position { get; set; }
-    public Rectangle DrawingArea =>
-        new(Position.X * Game.TileSize,
-            Position.Y * Game.TileSize,
-            Game.TileSize,
-            Game.TileSize);
-
-    public Tile(Image sprite, Point position)
+    class Tile
     {
-        Sprite = sprite;
-        Position = position;
+        public static Size Size;
+        public Image Sprite { get; set; }
+        public Point Position { get; set; }
+        public Rectangle DrawingArea
+        {
+            get => new(
+                Position.X * Size.Width,
+                Position.Y * Size.Height,
+                Size.Width,
+                Size.Height);
+        }
+
+        public Tile(Image sprite, Point position)
+        {
+            Sprite = sprite;
+            Position = position;
+        }
     }
 }

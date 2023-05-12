@@ -1,7 +1,10 @@
-﻿namespace Game.Model;
-
-public class GameState
+﻿namespace Game.Model
 {
-    public Level Level { get; set; }
-    public Player Player { get; set; }
+    class GameState
+    {
+        public Level Level { get; set; }
+        public Player Player { get; set; }
+        // level
+        // player
+    }
 }
